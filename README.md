@@ -55,9 +55,6 @@ credit-risk-ml/
 │   └── app.py                      # Streamlit web application
 │
 ├── src/                            # Python modules and utilities
-├── configs/                        # Configuration files
-├── logs/                           # Training logs
-├── mlruns/                         # MLflow experiment tracking
 ├── .env.example                    # Environment variable template
 ├── .gitignore
 ├── requirements.txt
@@ -118,6 +115,7 @@ pip install -r requirements.txt
 ```
 
 Download application_train.csv from the Home Credit Default Risk competition on Kaggle and place it in data/raw/.
+https://www.kaggle.com/competitions/home-credit-default-risk/data
 
 Run notebooks in order from 01 to 07, then launch the app:
 
